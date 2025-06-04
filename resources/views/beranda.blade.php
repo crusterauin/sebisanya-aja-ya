@@ -7,7 +7,8 @@
                 <div class="flex flex-col items-center lg:items-start">
                     <h1 class="text-4xl sm:text-6xl font-bold">Dari Data</h1>
                     <h1 class="text-4xl sm:text-6xl font-bold">ke Aksi Nyata.</h1>
-                    <h2 class="text-l sm:text-xl font-medium my-5">Wujudkan masa depan bersih dan hijau bersama
+                    <h2 class="text-l sm:text-xl font-medium my-5 text-center">Wujudkan masa depan bersih dan hijau
+                        bersama
                         <span class="font-bold">GESTIFY</span>
                     </h2>
                     <x-button href="volunteer">Mulai Aksi</x-button>
@@ -59,43 +60,49 @@
         <img src="gradientHijau.png" alt="gradient hijau" class="absolute -right-225 z-0">
         <h1 class="mb-10 text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">Taukah kamu?</h1>
         <div>
-            <div class="flex flex-row justify-between items-center my-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center my-10">
                 <img src="botolPlastik.png" class="size-50 lg:size-100 md:size-75 sm:size-50">
-                <div class="m-10">
-                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold">1 juta botol plastik dibeli setiap menit
+                <div class="m-10 flex flex-col items-center sm:items-start">
+                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold text-center sm:text-start">1 juta botol
+                        plastik dibeli setiap menit
                         di
                         dunia
                     </h1>
-                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15">13 juta ton sampah plastik masuk ke
+                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15 text-justify">13 juta ton sampah
+                        plastik masuk ke
                         laut tiap
                         tahun,
                         menyebabkan kematian 100 ribu hewan laut. Sampah plastik membutuhkan lebih dari 100 tahun untuk
                         terurai secara alami.</p>
-                    <x-button href="/artikel1">Baca Artikel</x-button>
+                    <x-button href="/artikel1">Baca</x-button>
                 </div>
             </div>
-            <div class="flex flex-row justify-between items-center my-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center my-10">
                 <img src="kompos.png" class="size-50 lg:size-100 md:size-75 sm:size-50">
-                <div class="m-10">
-                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold">Sampah organik bisa berubah jadi kompos
+                <div class="m-10 flex flex-col items-center sm:items-start">
+                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold text-center sm:text-start">Sampah organik
+                        bisa berubah jadi kompos
                         dalam satu bulan</h1>
-                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15">Tetapi Plastik membutuhkan waktu
+                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15 text-justify">Tetapi Plastik
+                        membutuhkan waktu
                         hingga 500 tahun untuk
                         terurai secara alami, jauh lebih lama dibandingkan sampah organik.</p>
-                    <x-button href="/artikel2">Baca Artikel</x-button>
+                    <x-button href="/artikel2">Baca</x-button>
                 </div>
             </div>
-            <div class="flex flex-row justify-between items-center my-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center my-10">
                 <img src="daurUlang.png" class="size-50 lg:size-100 md:size-75 sm:size-50">
-                <div class="m-10">
-                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold">Hanya 9% sampah plastik yang benar-benar
+                <div class="m-10 flex flex-col items-center sm:items-start">
+                    <h1 class="text-lg md:text-2xl lg:text-3xl font-semibold text-center sm:text-start">Hanya 9% sampah
+                        plastik yang benar-benar
                         didaur ulang</h1>
-                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15">Sebagian besar sampah plastik
+                    <p class="text-sm md:text-lg lg:text-xl font-normal mt-5 mb-15 text-justify">Sebagian besar sampah
+                        plastik
                         lainnya, yaitu sekitar 91%
                         sisanya, dibuang dengan cara dibakar, dikubur di tempat pembuangan akhir, atau mencemari
                         lingkungan
                         seperti sungai dan laut</p>
-                    <x-button href="/artikel3">Baca Artikel</x-button>
+                    <x-button href="/artikel3">Baca</x-button>
                 </div>
             </div>
         </div>
