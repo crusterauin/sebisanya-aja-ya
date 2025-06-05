@@ -5,8 +5,8 @@
         <div class="mb-100 md:mb-150 lg:mb-120 relative">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-col items-center lg:items-start">
-                    <h1 class="text-4xl sm:text-6xl font-bold">Dari Data</h1>
-                    <h1 class="text-4xl sm:text-6xl font-bold">ke Aksi Nyata.</h1>
+                    <h1 class="text-4xl sm:text-6xl font-bold">Beraksi nyata</h1>
+                    <h1 class="text-4xl sm:text-6xl font-bold">bersama-sama.</h1>
                     <h2 class="text-l sm:text-xl font-medium my-5 text-center">Wujudkan masa depan bersih dan hijau
                         bersama
                         <span class="font-bold">GESTIFY</span>

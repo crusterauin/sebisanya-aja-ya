@@ -5,7 +5,7 @@
                 <img class="size-12 sm:size-8" src="tanisampahPutih.svg" alt="TANISAMPAH">
                 <span class="text-white text-4xl sm:text-3xl font-bold px-2 font-[Plus Jakarta Sans]">GESTIFY</span>
             </div>
-            <span class="text-white">Dari Data ke Aksi Nyata.</span>
+            <span class="text-white">Beraksi nyata bersama-sama.</span>
         </div>
         <div class="flex flex-col pt-5 sm:pt-0">
             <span class="text-white text-xs sm:text-sm text-right pb-2 font-medium">Check us out on social media!</span>
