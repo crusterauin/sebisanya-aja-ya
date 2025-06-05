@@ -18,4 +18,12 @@
             </div>
         </div>
     </div>
+    <div class="flex flex-col items-center sm:items-start mt-5 gap-1 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h1 class="text-putih font-semibold">Penuh semangat:</h1>
+        <div class="flex flex-row gap-3 text-sm items-center text-center text-putih">
+            <h1>Faturrohman Fairuz Zaki</h1>
+            <h1>Josua Blater L. Rambe</h1>
+            <h1>Nabila Novita Rahma</h1>
+        </div>
+    </div>
 </footer>
