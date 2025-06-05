@@ -1,7 +1,7 @@
 <x-layout>
     <x-slider></x-slider>
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10">
-        <h1 class="text-5xl font-bold my-10">Mau baca apa hari ini?</h1>
+        <h1 class="text-3xl sm:text-5xl font-bold my-10">Mau baca apa hari ini?</h1>
         <x-searchBar>Masukkan judul artikel</x-searchBar>
         <x-educard class="educard-item" href="artikel1" img="botolPlastik.png" judul="Selamatkan Bumi dari Plastik"
             deskripsi="Tahukah Anda bahwa setiap menit terdapat sekitar satu juta botol plastik

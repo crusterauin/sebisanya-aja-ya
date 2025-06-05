@@ -24,7 +24,7 @@
     <!-- Konten Detail -->
     <div class="relative flex flex-row items-start justify-between px-7 py-5">
         <div class="flex flex-col text-putih space-y-2 text-shadow-lg">
-            <p class="text-base">{{ $deskripsi }}</p>
+            <p class="text-xs sm:text-base">{{ $deskripsi }}</p>
             <p class="font-regular text-xs md:text-sm">🕒 {{ $waktu }}</p>
             <p class="text-xs md:text-sm font-regular">📍 {{ $lokasi }}</p>
         </div>

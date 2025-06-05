@@ -5,7 +5,7 @@
             <div class="flex flex-row gap-3 mt-5">
                 <button @click="filter = 'all'"
                     :class="filter === 'all' ? 'bg-hijau text-putih' : 'ease-in-out duration-100'"
-                    class="shadow-2xl border px-3 py-1 rounded-3xl font-regular border-hijau hover:bg-hijau hover:text-putih">
+                    class="shadow-2xl border px-3 py-1 rounded-3xl text-xs sm:text-base font-regular border-hijau hover:bg-hijau hover:text-putih">
                     Semua Kegiatan
                 </button>
                 <button @click="filter = 'berlangsung'"
