@@ -28,7 +28,9 @@
                 <div class="flex flex-col items-center gap-10">
                     <div
                         class="flex flex-col justify-between text-center text-putih gap-5 mt-10 text-xs lg:text-xl md:text-lg font-light lg:flex-row">
-                        <h1 class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl">Setiap individu di Indonesia
+                        <h1
+                            class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                            Setiap individu di Indonesia
                             menghasilkan sekitar 0,7 kg
                             sampah per
                             hari.
@@ -36,14 +38,19 @@
                             dikelola dengan baik, jumlah ini dapat mencapai lebih dari 190.000 ton sampah setiap
                             harinya. Oleh karena itu, sampah bukanlah persoalan sepele, melainkan tanggung jawab
                             bersama.</h1>
-                        <h1 class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl">Timbunan sampah nasional mencapai 64
+                        <h1
+                            class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                            Timbunan sampah nasional mencapai 64
                             juta ton per tahun,
                             dengan
                             sekitar
                             12 persen atau 7,68
                             juta ton merupakan sampah plastik. Sampah plastik ini menjadi perhatian khusus karena
                             dampaknya terhadap lingkungan dan kesehatan.</h1>
-                        <h1 class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl">Sampah organik masih mendominasi jenis
+                        <h1
+                            class="p-10 rounded-2xl shadow-2xl backdrop-blur-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                            Sampah organik masih mendominasi
+                            jenis
                             sampah di
                             kota-kota
                             Indonesia. Disusul
@@ -172,7 +179,8 @@
                     sejalan dengan</h1>
                 <h1 class="text-center text-white text-9xl font-semibold mt-5">SDGs</h1>
                 <div class="my-10 flex flex-col items-center sm:flex-row">
-                    <img src="sdgs12.png" alt="" srcset="" class="w-50 lg:w-75">
+                    <img src="sdgs12.png" alt="" srcset=""
+                        class="w-50 lg:w-75 transition-transform duration-300 ease-in-out hover:scale-105">
                     <p class="text-white text-2xl md:text-3xl lg:text-4xl font-regular p-10 sm:text-start text-center">
                         Tujuan 12
                         SDGs
@@ -183,7 +191,8 @@
                         dengan prinsip reduce, reuse, dan recycle.</p>
                 </div>
                 <div class="my-10 flex flex-col items-center sm:flex-row sm:my-5">
-                    <img src="sdgs13.png" alt="" srcset="" class="w-50 lg:w-75">
+                    <img src="sdgs13.png" alt="" srcset=""
+                        class="w-50 lg:w-75 transition-transform duration-300 ease-in-out hover:scale-105">
                     <p class="text-white text-2xl md:text-3xl lg:text-4xl font-regular p-10 sm:text-start text-center">
                         Tujuan 13 SDGs
                         mengambil
