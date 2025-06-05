@@ -34,7 +34,7 @@
             </p>
         </div>
     </section>
-    <section class="flex flex-col items-center py-75 gap-5 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section class="flex flex-col items-center py-50 sm:py-75 gap-5 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">Mereka sudah jadi <span
                 class="text-hijau">sponsor!</span>
         </h1>
