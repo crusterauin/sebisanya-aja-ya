@@ -1,7 +1,7 @@
 <x-layout>
-    <section x-data="{ filter: 'all' }" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10 mt-30">
-        <div>
-            <h1 class="text-4xl font-bold mt-10 sm:text-5xl">Ikuti Volunteer Sekarang!</h1>
+    <section x-data="{ filter: 'all' }" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10 mt-20">
+        <div class="flex flex-col items-center">
+            <h1 class="text-4xl font-bold mt-10 sm:text-5xl text-center">Ikuti Volunteer Sekarang!</h1>
             <div class="flex flex-row gap-3 mt-5">
                 <button @click="filter = 'all'"
                     :class="filter === 'all' ? 'bg-hijau text-putih' : 'ease-in-out duration-100'"

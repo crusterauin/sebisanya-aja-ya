@@ -35,7 +35,7 @@
         </div>
     </div>
     <div x-show="isOpen" class="md:hidden" id="mobile-menu">
-        <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+        <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3 bg-white">
             <a href="/"
                 class="block rounded-md  px-3 py-2 text-base font-medium text-hitam hover:bg-gray-700 hover:text-white"
                 aria-current="page">Beranda</a>
@@ -43,6 +43,8 @@
                 class="block rounded-md px-3 py-2 text-base font-medium text-hitam hover:bg-gray-700 hover:text-white">Edukasi</a>
             <a href="/volunteer"
                 class="block rounded-md px-3 py-2 text-base font-medium text-hitam hover:bg-gray-700 hover:text-white">Volunteer</a>
+            <a href="/sponsorship"
+                class="block rounded-md px-3 py-2 text-base font-medium text-hitam hover:bg-gray-700 hover:text-white">Sponsorship</a>
         </div>
     </div>
 </nav>

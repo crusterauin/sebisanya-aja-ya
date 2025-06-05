@@ -13,10 +13,9 @@
     <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10 flex flex-col my-10">
         <div class="flex flex-col gap-5 items-center">
             <h1 class="text-2xl font-medium">Kegiatan ini didukung oleh:</h1>
-            <div class="flex flex-row gap-5">
-                <img src="tanisampah.svg" alt="">
-                <img src="tanisampah.svg" alt="">
-                <img src="tanisampah.svg" alt="">
+            <div class="flex flex-col items-center">
+                <img src="djarum.svg" alt="">
+                <h1>Djarum Foundation</h1>
             </div>
         </div>
         <div class="py-5 flex flex-col gap-2 text-2xl">
