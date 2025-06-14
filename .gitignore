@@ -24,3 +24,4 @@ Homestead.json
 /.phpactor.json
 /.fleet
 /auth.json
+/database/*.sqlite*
