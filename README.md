@@ -2,23 +2,23 @@
 
 ### Setup Project
 
-#### 1. Clone project
+### 1. Clone project
 git clone <repo-url>
 cd sebisanya-aja
 
-#### 2. Install dependency backend
+### 2. Install dependency backend
 composer install
 
-#### 3. Install dependency frontend
+### 3. Install dependency frontend
 npm install
 
-#### 4. Copy file .env
+### 4. Copy file .env
 cp .env.example .env
 
-#### 5. Generate application key
+### 5. Generate application key
 php artisan key:generate
 
-#### 6. Atur database di file .env (kalau pakai MySQL misalnya)
+### 6. Atur database di file .env (kalau pakai MySQL misalnya)
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -26,27 +26,27 @@ DB_DATABASE=sebisanya
 DB_USERNAME=root
 DB_PASSWORD=yourpassword
 
-#### 7. Buat database kosong sesuai nama di atas
+### 7. Buat database kosong sesuai nama di atas
 (manual lewat phpMyAdmin / CLI)
 
-#### 8. Buat file migrasi untuk tabel posts
+### 8. Buat file migrasi untuk tabel posts
 php artisan make:migration create_posts_table --create=posts
 
-#### 9. Jalankan migrasi untuk membuat tabel
+### 9. Jalankan migrasi untuk membuat tabel
 php artisan migrate
 
-####10. Build frontend assets (WAJIB)
+### 10. Build frontend assets (WAJIB)
 npm run build
 
-#### 11. Jalankan server Laravel
+### 11. Jalankan server Laravel
 php artisan serve
 
-#### 12. Akses project di browser
+### 12. Akses project di browser
 http://127.0.0.1:8000
 
 ---
 
-## .env Example
+### .env Example
 
 ```env
 APP_NAME=Laravel
