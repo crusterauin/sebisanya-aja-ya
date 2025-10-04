@@ -1,6 +1,6 @@
 # Sebisanya Aja 🚀
 
-## Setup Project
+### Setup Project
 
 # 1. Clone project
 
