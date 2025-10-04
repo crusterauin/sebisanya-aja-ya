@@ -3,28 +3,22 @@
 ### Setup Project
 
 #### 1. Clone project
-
 git clone <repo-url>
 cd sebisanya-aja
 
 #### 2. Install dependency backend
-
 composer install
 
 #### 3. Install dependency frontend
-
 npm install
 
 #### 4. Copy file .env
-
 cp .env.example .env
 
 #### 5. Generate application key
-
 php artisan key:generate
 
 #### 6. Atur database di file .env (kalau pakai MySQL misalnya)
-
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -38,18 +32,16 @@ DB_PASSWORD=yourpassword
 #### 8. Buat file migrasi untuk tabel posts
 php artisan make:migration create_posts_table --create=posts
 
-#### 9. Buka file database/migrations/xxxx_xx_xx_xxxxxx_create_posts_table.php
-
-#### 10. Jalankan migrasi untuk membuat tabel
+#### 9. Jalankan migrasi untuk membuat tabel
 php artisan migrate
 
-####11. Build frontend assets (WAJIB)
+####10. Build frontend assets (WAJIB)
 npm run build
 
-#### 12. Jalankan server Laravel
+#### 11. Jalankan server Laravel
 php artisan serve
 
-#### 13. Akses project di browser
+#### 12. Akses project di browser
 http://127.0.0.1:8000
 
 ---
