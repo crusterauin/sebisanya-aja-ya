@@ -17,7 +17,7 @@ export default defineConfig({
         allowedHosts: "all",
     },
     build: {
-        outDir: "dist", // arahkan hasil build ke dist
+        outDir: "public/build",
         emptyOutDir: true,
     },
 });
