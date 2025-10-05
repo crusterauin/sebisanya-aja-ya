@@ -11,8 +11,7 @@ npm install
 cp .env.example .env
 php artisan key:generate
 
-## Buat folder database & file SQLite
-mkdir database
+## Buat file SQLite
 touch database/database.sqlite
 
 ## Jalankan migrasi
