@@ -8,7 +8,6 @@
 /public/storage
 /public/build
 /public/hot
-.env
 .env.*
 !.env.example
 .phpunit.result.cache
