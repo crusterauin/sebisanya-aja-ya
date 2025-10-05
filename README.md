@@ -3,7 +3,7 @@
 ```bash
 ## Clone project & install dependencies
 git clone <repo-url>
-cd sebisanya-aja
+cd sebisanya-aja-ya
 composer install
 npm install
 
