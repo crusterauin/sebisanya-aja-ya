@@ -1,3 +1,5 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+    "version": 3,
+    "builds": [{ "src": "artisan", "use": "@vercel/php" }],
+    "routes": [{ "src": "/(.*)", "dest": "/index.php" }]
 }
