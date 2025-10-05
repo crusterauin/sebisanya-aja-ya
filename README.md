@@ -1,54 +1,35 @@
-# Sebisanya Aja 🚀
+# Sebisanya Aja Setup Project (SQLite)
 
-### Setup Project
-
-### 1. Clone project
+```bash
+## Clone project & install dependencies
 git clone <repo-url>
 cd sebisanya-aja
-
-### 2. Install dependency backend
 composer install
-
-### 3. Install dependency frontend
 npm install
 
-### 4. Copy file .env
+## Copy file .env & generate application key
 cp .env.example .env
-
-### 5. Generate application key
 php artisan key:generate
 
-### 6. Atur database di file .env (kalau pakai MySQL misalnya)
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sebisanya
-DB_USERNAME=root
-DB_PASSWORD=yourpassword
+## Buat folder database & file SQLite
+mkdir database
+touch database/database.sqlite
 
-### 7. Buat database kosong sesuai nama di atas
-(manual lewat phpMyAdmin / CLI)
-
-### 8. Buat file migrasi untuk tabel posts
+## Jalankan migrasi
 php artisan make:migration create_posts_table --create=posts
-
-### 9. Jalankan migrasi untuk membuat tabel
 php artisan migrate
 
-### 10. Build frontend assets (WAJIB)
+## Build frontend assets
 npm run build
 
-### 11. Jalankan server Laravel
+## Jalankan server Laravel
 php artisan serve
 
-### 12. Akses project di browser
+## Akses project di browser
 http://127.0.0.1:8000
 
----
 
-### .env Example
-
-```env
+## Contoh .env
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=
@@ -58,12 +39,8 @@ APP_URL=http://localhost
 LOG_CHANNEL=stack
 LOG_LEVEL=debug
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sebisanya
-DB_USERNAME=root
-DB_PASSWORD=
+DB_CONNECTION=sqlite
+DB_DATABASE=./database/database.sqlite
 
 SESSION_DRIVER=database
 SESSION_LIFETIME=120
